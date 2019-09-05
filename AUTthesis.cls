@@ -64,11 +64,11 @@
 %\topmargin=-30pt
 \vspace{-1cm}\centerline{{\includegraphics[height=3.8cm]{fa-logo}}}
 \vspace{-1cm}
-{\bf{\fontsize{16pt}{16pt}\selectfont دانشگاه صنعتی امیرکبیر}\par
-\vspace{-1cm}\fontsize{14pt}{15pt}\selectfont(پلی‌تکنیک تهران)\par
-\vspace{-1cm}\fontsize{16pt}{17pt}\selectfont\@faculty}\par
+{\bf{\fontsize{14pt}{14pt}\selectfont دانشگاه صنعتی امیرکبیر}\par
+\vspace{-1cm}\fontsize{12pt}{13pt}\selectfont(پلی‌تکنیک تهران)\par
+\vspace{-1cm}\fontsize{14pt}{15pt}\selectfont\@faculty}\par
 %\vskip 1.5cm
-{\fontsize{16pt}{14pt}\selectfont\bfseries
+{\fontsize{14pt}{12pt}\selectfont\bfseries
 \if@mscthesis
 پایان‌نامه کارشناسی‌ارشد
 \vspace{-.8cm}
@@ -91,14 +91,14 @@
 %{\fontsize{16pt}{17pt}\selectfont\bfseries\onvan}\par
 \par
  \vspace{1cm}
-{\fontsize{20pt}{21pt}\selectfont\bfseries {\ftitle}}\par
+{\fontsize{18pt}{19pt}\selectfont\bfseries {\ftitle}}\par
 \vskip .5cm
- {\fontsize{16pt}{17pt}\selectfont\bfseries%
+ {\fontsize{14pt}{15pt}\selectfont\bfseries%
   \by}\par
 \par
 \vspace*{-0.8cm}
-{\fontsize{18pt}{19pt}\selectfont\bfseries{\fname \lname}}\par
-\fontsize{16pt}{17pt}\selectfont\bfseries
+{\fontsize{16pt}{17pt}\selectfont\bfseries{\fname \lname}}\par
+\fontsize{14pt}{15pt}\selectfont\bfseries
 {\ifx\ffirstsupervisor\undefined%
 \ifx\fsecondsupervisor\undefined%
 \else\fi
@@ -106,17 +106,17 @@
 \ifx\fsecondsupervisor\undefined%
 استاد راهنما
 \vspace*{-0.8cm}
-{\fontsize{18pt}{19pt}\selectfont\bfseries\par
+{\fontsize{16pt}{17pt}\selectfont\bfseries\par
 \ffirstsupervisor}
 \else
-\fontsize{16pt}{17pt}\selectfont\bfseries
+\fontsize{14pt}{15pt}\selectfont\bfseries
 استادان راهنما
 \vspace*{-0.8cm}
-{\fontsize{18pt}{19pt}\selectfont\bfseries\par \ffirstsupervisor\space
+{\fontsize{16pt}{17pt}\selectfont\bfseries\par \ffirstsupervisor\space
 	 و
 	  \fsecondsupervisor}
 \fi\fi}
-\par\fontsize{16pt}{17pt}\selectfont\bfseries
+\par\fontsize{14pt}{15pt}\selectfont\bfseries
 {\ifx\ffirstadvisor\undefined%
 \ifx\fsecondadvisor\undefined%
 \else\fi
@@ -124,19 +124,19 @@
 \ifx\fsecondadvisor\undefined%
 استاد مشاور
 \vspace*{-0.8cm}
-{\fontsize{18pt}{19pt}\selectfont\bfseries\par
+{\fontsize{16pt}{17pt}\selectfont\bfseries\par
 \ffirstadvisor}
 \else
 
-\fontsize{16pt}{17pt}\selectfont\bfseries
+\fontsize{14pt}{15pt}\selectfont\bfseries
 استادان مشاور
 \vspace*{-0.8cm}
-{\fontsize{18pt}{19pt}\selectfont\bfseries\par\ffirstadvisor{} و \fsecondadvisor}
+{\fontsize{16pt}{17pt}\selectfont\bfseries\par\ffirstadvisor{} و \fsecondadvisor}
 \fi\fi}
 
 \vskip 6mm
 
-{\fontsize{16pt}{17pt}\selectfont \datethesis}
+{\fontsize{14pt}{15pt}\selectfont \datethesis}
 
 \end{titlepage}%
 \newpage
@@ -217,11 +217,11 @@
 %---------------------------------------------------------------------------- end of En table
 \begin{titlepage}
 \vspace{-1cm}{\includegraphics[height=3.8cm]{fa-logo}}
-\centerline{\fontsize{18pt}{19pt}\selectfont\bf Amirkabir University of Technology}\space 
+\centerline{\fontsize{16pt}{17pt}\selectfont\bf Amirkabir University of Technology}\space 
 \vskip -.2cm
-\fontsize{16pt}{17pt}\selectfont\bfseries (Tehran Polytechnic)\par \vskip .2cm
+\fontsize{14pt}{15pt}\selectfont\bfseries (Tehran Polytechnic)\par \vskip .2cm
 \bfseries
-\fontsize{16pt}{17pt}\selectfont\@latinfaculty\space 
+\fontsize{14pt}{15pt}\selectfont\@latinfaculty\space 
 \vskip 5mm
 \if@bscthesis
 B.Sc. Thesis\par
@@ -240,49 +240,49 @@ Ph.D Thesis\par
 \baselineskip=.750cm \par
 \vskip 1.5cm
 {\bfseries\latinby}\par
-{\fontsize{18pt}{19pt}\selectfont\bfseries
+{\fontsize{16pt}{17pt}\selectfont\bfseries
 \@latinname \;\@latinsurname}\par
 \vskip 1cm
 
-\fontsize{16pt}{17pt}\selectfont\bfseries
+\fontsize{14pt}{15pt}\selectfont\bfseries
 {\ifx\@firstlatinsupervisor\undefined%
 \ifx\@secondlatinsupervisor\undefined%
 \else\fi
 \else
 \ifx\@secondlatinsupervisor\undefined%
 Supervisor
-{\fontsize{18pt}{19pt}\selectfont\bfseries\par
+{\fontsize{16pt}{17pt}\selectfont\bfseries\par
 \@firstlatinsupervisor}
 \else
-\fontsize{16pt}{17pt}\selectfont\bfseries
+\fontsize{14pt}{15pt}\selectfont\bfseries
 Supervisors
 \par
-{\fontsize{18pt}{19pt}\selectfont\bfseries \@firstlatinsupervisor{} and \@secondlatinsupervisor}
+{\fontsize{16pt}{17pt}\selectfont\bfseries \@firstlatinsupervisor{} and \@secondlatinsupervisor}
 \fi\fi}
 \par
 \vskip 1cm
-\fontsize{16pt}{17pt}\selectfont\bfseries
+\fontsize{14pt}{15pt}\selectfont\bfseries
 {\ifx\@firstlatinadvisor\undefined%
 \ifx\@secondlatinadvisor\undefined%
 \else\fi
 \else
 \ifx\@secondlatinadvisor\undefined%
 Advisor
-{\fontsize{18pt}{19pt}\selectfont\bfseries\par
+{\fontsize{16pt}{17pt}\selectfont\bfseries\par
 \@firstlatinadvisor}
 \else
 
-\fontsize{16pt}{17pt}\selectfont\bfseries
+\fontsize{14pt}{15pt}\selectfont\bfseries
 Advisors
 \par
-{\fontsize{18pt}{19pt}\selectfont\bfseries\@firstlatinadvisor{} and \@secondlatinadvisor}
+{\fontsize{16pt}{17pt}\selectfont\bfseries\@firstlatinadvisor{} and \@secondlatinadvisor}
 \fi\fi}
 %\vskip 5mm
 
 \par
 \vskip 2cm
 
-{\fontsize{16pt}{17pt}\selectfont\bfseries\@latinthesisdate}
+{\fontsize{14pt}{15pt}\selectfont\bfseries\@latinthesisdate}
 \par
 \vskip 1cm
 
