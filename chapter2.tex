@@ -598,6 +598,8 @@
 \lr{action} ها از راه های مختلفی می‌توانند به یکدیگر متصل شوند. ساده ترین راه متصل کردن به وسیله \lr{sequence} است. \lr{action} های متصل به هم از خروجی \lr{action} قبل از خود به عنوان ورودی استفاده می‌کنند.
 
 بسیاری از جریان‌های مورد نیاز برای پیاده‌سازی منطق برنامه را نمی‌توان به صورت یک مسیر خطی تعریف کرد که تنها یک ورودی می‌گیرند و در انتها یک خروجی را برمی‌گردانند. بنابراین راهی وجود دارد که می‌توان جریان \lr{action} ها را به مسیرهای مختلف تقسیم کرد. این ویژگی با \lr{trigger} ها (ماشه ها) و \lr{rule} ها (قوانین) پیاده‌سازی می‌شود. یک \lr{trigger} به تنهایی کاری انجام نمی‌دهد، اگرچه می‌توان آن را با یک یا چند \lr{action} از طریق تعریف کردن \lr{rule} مرتبط کرد. پس از تعریف کردن \lr{trigger} و مرتبط کردن آن با چندین \lr{action} می‌توان آن را با دادن مؤلفه‌ها شلیک (\lr{fire}) کرد. در شکل \ref{OpenWhisk_actions_architecture} معماری \lr{action} های \lr{OpenWhisk} نشان داده شده است.
+\newline
+\newline
 
 \begin{figure}[!h]
 	\centering
@@ -623,6 +625,7 @@
 \textbf{\lr{Kafka}} : سیستم پیام رسانی انتشار-اشتراک توزیع شده با کارایی بالا و مقیاس پذیر
 
 تمامی‌این اجزاء کانتینرهای داکر هستند و می‌توانند توسط محیط‌هایی که از این فرمت پشتیبانی می‌کنند مانند کوبرنتیز اجرا شوند.
+\newline
 
 \lr{OpenWhisk} شامل قسمت های دیگری می‌باشد که توسط تیم خودش ساخته شده است:
 
@@ -634,7 +637,7 @@
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[height=10cm]{images/OpenWhisk_flow_of_processing}
+	\includegraphics[height=9cm]{images/OpenWhisk_flow_of_processing}
 	\caption{ساختار \lr{OpenWhisk}}
 	\label{OpenWhisk_flow_of_processing}
 \end{figure}
